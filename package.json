@@ -1,32 +1,31 @@
 {
-    "name": "server",
-    "version": "1.0.0",
-    "description": "tests node",
-    "main": "index.js",
-    "scripts": {
-        "test": "test-start",
-        "start": "nodemon index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/pabloandreychacon/node-server.git"
-    },
-    "author": "andrey chacon",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/pabloandreychacon/node-server/issues"
-    },
-    "homepage": "https://github.com/pabloandreychacon/node-server#readme",
-    "dependencies": {
-        "async": "^3.2.0",
-        "ejs": "^3.1.2",
-        "express": "^4.17.1",
-        "jshint": "^2.11.0",
-        "morgan": "^1.10.0",
-        "mssql": "^6.2.0",
-        "tedious": "^8.3.0"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.3"
-    }
+  "name": "server",
+  "version": "1.0.0",
+  "description": "tests node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-start",
+    "start": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloandreychacon/node-server.git"
+  },
+  "author": "andrey chacon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloandreychacon/node-server/issues"
+  },
+  "homepage": "https://github.com/pabloandreychacon/node-server#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "jshint": "^2.11.0",
+    "morgan": "^1.10.0",
+    "tedious": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
 }
