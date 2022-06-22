@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/pabloandreychacon/node-server#readme",
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "ejs": "^3.1.2",
     "express": "^4.17.1",
     "jshint": "^2.11.0",
